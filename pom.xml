@@ -20,8 +20,36 @@
   </properties>
 
   <modules>
+    <module>okra-site-common</module>
+    <module>okra-site-repository</module>
+    <module>okra-site-service</module>
     <module>okra-site-web</module>
   </modules>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.okracode.platform</groupId>
+        <artifactId>okra-site-common</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.okracode.platform</groupId>
+        <artifactId>okra-site-repository</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.okracode.platform</groupId>
+        <artifactId>okra-site-service</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.okracode.platform</groupId>
+        <artifactId>okra-site-web</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
   <dependencies>
     <dependency>

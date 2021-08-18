@@ -8,10 +8,9 @@
     <artifactId>okra-site</artifactId>
     <version>1.0.0</version>
   </parent>
-  <artifactId>okra-site-web</artifactId>
-  <packaging>jar</packaging>
-  <name>okra-site-web</name>
-  <description>website main entrance</description>
+  <artifactId>okra-site-repository</artifactId>
+  <name>okra-site-repository</name>
+  <description>repository for okra site</description>
   <properties>
     <java.version>1.8</java.version>
   </properties>
@@ -19,21 +18,7 @@
   <dependencies>
     <dependency>
       <groupId>com.okracode.platform</groupId>
-      <artifactId>okra-site-service</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-freemarker</artifactId>
+      <artifactId>okra-site-common</artifactId>
     </dependency>
   </dependencies>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-      </plugin>
-    </plugins>
-  </build>
-
 </project>
