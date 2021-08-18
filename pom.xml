@@ -24,6 +24,7 @@
     <module>okra-site-repository</module>
     <module>okra-site-service</module>
     <module>okra-site-web</module>
+    <module>okra-site-admin</module>
   </modules>
 
   <dependencyManagement>
@@ -46,6 +47,11 @@
       <dependency>
         <groupId>com.okracode.platform</groupId>
         <artifactId>okra-site-web</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.okracode.platform</groupId>
+        <artifactId>okra-site-admin</artifactId>
         <version>${project.version}</version>
       </dependency>
     </dependencies>
