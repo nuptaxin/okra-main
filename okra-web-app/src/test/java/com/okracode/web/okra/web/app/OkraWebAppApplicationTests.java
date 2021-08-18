@@ -1,10 +1,10 @@
-package com.okracode.web.okra.web;
+package com.okracode.web.okra.web.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OkraWebApplicationTests {
+class OkraWebAppApplicationTests {
 
     @Test
     void contextLoads() {
