@@ -1,4 +1,4 @@
-package com.okracode.web.okra.web.app;
+package com.okracode.platform.okra.site.web;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

@@ -1,4 +1,4 @@
-package com.okracode.web.okra.web.app;
+package com.okracode.platform.okra.site.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
