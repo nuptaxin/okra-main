@@ -8,7 +8,7 @@
   <h1>Hello boy,</h1><br>
   <p>当前时间：${.now?string("yyyy-MM-dd HH:mm:ss.sss")}</p>
   <p>系统访问人数：${visitSum}</p>
-  <a href="home.okra.com">小秋葵的家</a>
-  <a href="admin.okra.com">后台管理</a>
+  <a href="home.okracode.com">小秋葵的家</a>
+  <a href="admin.okracode.com">后台管理</a>
 </body>
 </html>
